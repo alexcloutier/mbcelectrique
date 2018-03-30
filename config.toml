@@ -1,4 +1,4 @@
-baseurl = "mbcelectrique"
+baseurl = "/mbcelectrique"
 title = "MBC Électrique Inc."
 theme = "dimension"
 languageCode = "en-us"
