@@ -5,7 +5,7 @@ weight = 40
 draft = false
 +++
 
-<form id="contactform" method="post" action="https://formspree.io/alexandre.cloutier@mbcelectrique.com">
+<form id="contactform" method="post" action="https://formspree.io/info@mbcelectrique.com">
 	<div class="field half first">
 		<input type="text" name="name" id="name" placeholder="Nom"/>
 	</div>
