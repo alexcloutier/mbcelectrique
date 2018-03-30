@@ -1,5 +1,5 @@
-baseurl = "http://mbcelectrique.com"
-title = "MBC Électrique"
+baseurl = "alexcloutier.github.io/mbcelectrique"
+title = "MBC Électrique Inc."
 theme = "dimension"
 languageCode = "en-us"
 defaultContentLanguage = "fr"
@@ -8,7 +8,7 @@ disableKinds=["RSS"]
 publishDir = "docs"
 
 [params]
-  description = 'MBC Électrique inc.'
+  description = 'Résidentiel - Commercial - Industriel | Service de dépannage 24/7'
   logoimage = "/images/logo.png"
   copyright = "mbcelectrique"
 
@@ -35,4 +35,4 @@ weight = 1
 [languages.en]
 languageName = "English"
 weight = 2
-description = 'MBC Électrique inc.'
+description = 'Residential - Commercial - Industrial | Emergency services 24/7'

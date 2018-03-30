@@ -3,7 +3,7 @@
 <html>
 	<head>
 	<meta name="generator" content="Hugo 0.37.1" />
-		<title>MBC Électrique</title>
+		<title>MBC Électrique Inc.</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/css/main.css" />
@@ -28,8 +28,8 @@
             </div>
             <div class="content">
               <div class="inner">
-                <h1>MBC Électrique</h1>
-                <p>MBC Électrique inc.</p>
+                <h1>MBC Électrique Inc.</h1>
+                <p>Residential - Commercial - Industrial | Emergency services 24/7</p>
               </div>
             </div>
             <nav>
@@ -41,7 +41,7 @@
                 
                   <li><a href="#about">About</a></li>
                 
-                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#contact">Contact Us</a></li>
                 
               </ul>
             </nav>
@@ -100,24 +100,38 @@ We are an electrical compagnie</p>
 
             
               <article id="contact">
-  <h1>Contact</h1>
-  <form method="post" action="#">
+  <h1>Contact Us</h1>
+  <p><form id="contactform" method="post" action="https://formspree.io/info@mbcelectrique.com">
     <div class="field half first">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" />
+        <input type="text" name="name" id="name" placeholder="Name"/>
     </div>
     <div class="field half">
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email" />
+        <input type="email" id="email" name="email" placeholder="Email">
     </div>
     <div class="field">
-        <label for="message">Message</label>
-        <textarea name="message" id="message" rows="4"></textarea>
+        <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
     </div>
     <ul class="actions">
-        <li><input type="submit" value="Send message" class="special" /></li>
+        <li><input type="submit" value="Send" class="special" /></li>
     </ul>
+    <input type="hidden" name="_next" value="?sent#formspree" />
+    <input type="hidden" name="_subject" value="Subject for your mail like new message" />
+    <input type="text" name="_gotcha" style="display:none" />
 </form>
+<span id="contactformsent">Thank you for your message</span></p>
+
+<script>
+$(document).ready(function($) { 
+    $(function(){
+        if (window.location.search == "?sent") {
+            $('#contactform').hide();
+            $('#contactformsent').show();
+        } else {
+            $('#contactformsent').hide();
+        }
+    });
+});
+</script>
 
 <ul class="icons">
 
@@ -138,7 +152,7 @@ We are an electrical compagnie</p>
           <div id="languages">
             
               
-                <a href="http://mbcelectrique.com/">Français</a>
+                <a href="alexcloutier.github.io/mbcelectrique/">Français</a>
               
             
           </div>
