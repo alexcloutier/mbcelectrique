@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: alexcloutier.github.io/mbcelectrique/sitemap.xml
+Sitemap: mbcelectrique/sitemap.xml
