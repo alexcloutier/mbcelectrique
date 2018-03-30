@@ -8,14 +8,8 @@ disableKinds=["RSS"]
 publishDir = "docs"
 
 [params]
-  description = 'Résidentiel - Commercial - Industriel | Service de dépannage 24/7'
   logoimage = "/images/logo.png"
-  copyright = "mbcelectrique"
-
-[[params.social]]
-  medium = "twitter"
-  icon = "twitter"
-  link = "#"
+  copyright = "MBC Électrique inc."
 
 [[params.social]]
   medium = "facebook"
@@ -29,10 +23,11 @@ publishDir = "docs"
 
 [languages]
 [languages.fr]
-languageName = "Français"
-weight = 1
+  languageName = "Français"
+  weight = 1
+  description = 'Résidentiel - Commercial - Industriel | Service de dépannage 24/7'
 
 [languages.en]
-languageName = "English"
-weight = 2
-description = 'Residential - Commercial - Industrial | Emergency services 24/7'
+  languageName = "English"
+  weight = 2
+  description = 'Residential - Commercial - Industrial | Emergency services 24/7'
