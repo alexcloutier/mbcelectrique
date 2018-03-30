@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://alexcloutier.github.io"
 title = "MBC Électrique Inc."
 theme = "dimension"
 languageCode = "en-us"

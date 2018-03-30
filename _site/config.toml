@@ -1,0 +1,38 @@
+baseurl = ""
+title = "MBC Électrique Inc."
+theme = "dimension"
+languageCode = "en-us"
+defaultContentLanguage = "fr"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+publishDir = "docs"
+
+[params]
+  description = 'Résidentiel - Commercial - Industriel | Service de dépannage 24/7'
+  logoimage = "/images/logo.png"
+  copyright = "mbcelectrique"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "#"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "https://www.facebook.com/mbcelectrique/"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "#"
+
+[languages]
+[languages.fr]
+languageName = "Français"
+weight = 1
+
+[languages.en]
+languageName = "English"
+weight = 2
+description = 'Residential - Commercial - Industrial | Emergency services 24/7'
